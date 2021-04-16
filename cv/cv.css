@@ -1,0 +1,362 @@
+/* **************  POUR SMARTPHONE  ********************* */
+@media screen and (max-width:767.98px){
+    body{
+        margin:0;
+        padding:0;
+        background-color: grey;
+        
+    }
+    h1{
+        text-align:center;
+        color:white;
+        font-size:50px;
+    }
+    main h2{
+        color:orange;
+        background-color:#d3dee0;
+        text-align:center;
+    }
+    .container{
+        width :100%;
+        min-height: 900px;
+        border: 2px solid black;
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    header{
+        width: 100%;
+        min-height: 150px;
+        background:url("img/bgc3.jpg");
+        background-size: cover;
+    }
+   
+    aside{
+        display: none;
+        background-color: #d3dee0;
+        /*
+        width: 100%;
+        min-height:700px;
+        background-color: #d3dee0;
+        border-right: 2px solid grey;
+        */
+    }
+    aside h2{
+        color:orange;
+    }
+    main{
+        width: 100%;
+        min-height: 900px;
+        background-color: white;
+        margin-top:20px;
+    }
+    .bloc{
+        width: 100%;
+        min-height: 100px;
+        margin: 0 auto;
+        line-height: 35px;
+    }
+    
+    article{
+        margin: 20px;
+    }
+    li{
+        list-style:none;
+        width: 100%;
+    }
+    .bloc1 li{
+        line-height: 53px;
+    }
+    .info{
+        color:black;
+    
+    }
+    .info img{
+        width: 30px;
+    }
+    .skills{
+        width: 100%;
+    }
+    .logo{
+        width:100%;
+        margin: 0 auto;
+    }
+    .tech{
+        width: 100%;
+        text-align: center;
+    }
+    .loisir{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .loisir img{
+        margin-left:20px;
+    }
+    .orange{
+        color:orange;
+    }
+    h3{
+        text-decoration: underline;
+        color: orange;
+    }
+    #tel{
+        text-decoration: none;
+        color: black;
+    }
+    #mail{
+        text-decoration: none;
+        color: black;
+    }
+    #slide{
+        width: 180px;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: #d3dee0;
+        background-color: orange;
+        border-radius: 12px;
+        margin: 20px;
+    }
+}
+/* **************  POUR TABLETTE  ********************* */
+@media (min-width: 768px) and (max-width:991.98px){
+	body{
+        margin:0;
+        padding:0;
+        background-color: grey;
+        
+    }
+    h1{
+        text-align:center;
+        color:white;
+        font-size:50px;
+    }
+    main h2{
+        color:orange;
+        background-color:#d3dee0;
+        text-align:center;
+    }
+    .container{
+        width : 960px;
+        min-height: 900px;
+        border: 2px solid black;
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        width: 960px;
+        min-height: 150px;
+        background:url("img/bgc3.jpg");
+        background-size: cover;
+    }
+    nav{
+        width: 960px;
+        
+    }
+    nav ul li{
+        margin-right:0 ;
+        display: inline;
+        
+    }
+    aside{
+        width: 258px;
+        min-height:700px;
+        background-color: #d3dee0;
+        border-right: 2px solid grey;
+    }
+    aside h2{
+        color:orange;
+    }
+    main{
+        width: 700px;
+        min-height: 900px;
+        background-color: white;
+        margin-top:20px;
+    }
+    .bloc{
+        width: 600px;
+        min-height: 100px;
+        margin: 0 auto;
+        line-height: 35px;
+    }
+    
+    article{
+        margin: 20px;
+    }
+    li{
+        list-style:none;
+        width: 650px;
+    }
+    .bloc1 li{
+        line-height: 53px;
+    }
+    .info{
+        color:black;
+    
+    }
+    .info img{
+        width: 30px;
+    }
+    .skills{
+        width: 300px;
+    }
+    .logo{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .tech{
+        width: 250px;
+        text-align: center;
+    }
+    .loisir{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .loisir img{
+        margin-left:20px;
+    }
+    .orange{
+        color:orange;
+    }
+    h3{
+        text-decoration: underline;
+        color: orange;
+    }
+    #tel{
+        text-decoration: none;
+        color: black;
+    }
+    #mail{
+        text-decoration: none;
+        color: black;
+    }
+    #slide{
+        display: none;
+    }
+}
+
+/* **************  POUR ECRAN  ********************* */
+@media screen and (min-width: 992px){
+    body{
+        margin:0;
+        padding:0;
+        background-color: grey;
+        
+    }
+    h1{
+        text-align:center;
+        color:white;
+        font-size:50px;
+    }
+    main h2{
+        color:orange;
+        background-color:#d3dee0;
+        text-align:center;
+    }
+    .container{
+        width : 960px;
+        min-height: 900px;
+        border: 2px solid black;
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        width: 960px;
+        min-height: 150px;
+        background:url("img/bgc3.jpg");
+        background-size: cover;
+    }
+    nav{
+        width: 960px;
+        
+    }
+    nav ul li{
+        margin-right:0 ;
+        display: inline;
+        
+    }
+    aside{
+        width: 258px;
+        min-height:700px;
+        background-color: #d3dee0;
+        border-right: 2px solid grey;
+    }
+    aside h2{
+        color:orange;
+    }
+    main{
+        width: 700px;
+        min-height: 900px;
+        background-color: white;
+        margin-top:20px;
+    }
+    .bloc{
+        width: 600px;
+        min-height: 100px;
+        margin: 0 auto;
+        line-height: 35px;
+    }
+    
+    article{
+        margin: 20px;
+    }
+    li{
+        list-style:none;
+        width: 650px;
+    }
+    .bloc1 li{
+        line-height: 53px;
+    }
+    .info{
+        color:black;
+    
+    }
+    .info img{
+        width: 30px;
+    }
+    .skills{
+        width: 300px;
+    }
+    .logo{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .tech{
+        width: 250px;
+        text-align: center;
+    }
+    .loisir{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .loisir img{
+        margin-left:20px;
+    }
+    .orange{
+        color:orange;
+    }
+    h3{
+        text-decoration: underline;
+        color: orange;
+    }
+    #tel{
+        text-decoration: none;
+        color: black;
+    }
+    #mail{
+        text-decoration: none;
+        color: black;
+    }
+    #slide{
+        display: none;
+    }
+}
